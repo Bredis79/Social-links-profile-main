@@ -110,7 +110,8 @@ ul li {
 
 }
 
-ul li:hover {
+ul li:hover,
+ul li:focus {
     background-color: var(--clr--Green);
 }
 
@@ -123,7 +124,8 @@ ul li a {
   padding: 1em 0;
    }
 
-ul li a:hover {
+ul li a:hover,
+ul li a:focus {
     color: var(--clr--Off-Black);
 }
 
